@@ -7,7 +7,7 @@ resources: 5
 
 # Code Challenge - Exploring jQuery Selectors
 
-In this challenge you will work in groups to practice using jquery to select different elements in the page using all of the different jQuery selectors aviable. 
+In this challenge you will work in groups to practice using jquery to select different elements in the page using all of the different jQuery selectors available. 
 
 ## Steps
 

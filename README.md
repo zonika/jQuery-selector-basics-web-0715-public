@@ -1,7 +1,6 @@
 ---
-languages: javascript, html, css
-tags: jQuery, selectors, beginner
-type: lab, challenege
+languages: javascript, js
+tags: jQuery, selectors, beginner, todo
 resources: 5
 ---
 
@@ -25,6 +24,17 @@ ex.
 
   // But wrap it in a function!!!!
   $('.special').addClass('pinky');
+```
+
+##Before You Start
+```shell
+# Install jasmine:
+gem sources -a http://flatiron:33west26@gems.flatironschool.com
+gem install ironboard
+
+# Run Jasmine test suite:
+ironboard  # runs only in the terminal
+ironboard -b # runs also in the browser
 ```
 
 Bonus: Use jQuery traversal methods to select one element and then switch selection to another element based on their location to each other in the DOM, documented at the [link here](http://api.jquery.com/category/traversing/).

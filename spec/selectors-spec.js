@@ -20,7 +20,7 @@ describe('Selectors', function() {
     expect(imageSelector().length).toBe(1);
   });
 
-  it('#checkboxInputSelector should select only checked checkbox inputs and wrap them with a span that has the class of pinky using the wrap method', function() {
+  it('#checkboxInputSelector should select all checkbox inputs and wrap them with a span that has the class of pinky using the wrap method', function() {
     checkboxInputSelector();
     expect($('form span.pinky').length).toBe(2);
   });

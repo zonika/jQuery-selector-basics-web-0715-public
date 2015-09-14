@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="5" errors="0" failures="0" time="0.036" timestamp="2015-09-14T14:50:11">
+		<testcase classname="Selectors" name="#h1Selector should select all h1&amp;apos;s" time="0.021">
+		</testcase>
+		<testcase classname="Selectors" name="#liInOlSelector should select all li elements nested in ol&amp;apos;s" time="0.002">
+		</testcase>
+		<testcase classname="Selectors" name="#linkSelector should select all links that are inside of the element with an id of box4 and a class of box5." time="0.001">
+		</testcase>
+		<testcase classname="Selectors" name="#imageSelector should an image that has the alt text equal to &amp;quot;cat sleeping&amp;quot;" time="0.001">
+		</testcase>
+		<testcase classname="Selectors" name="#checkboxInputSelector should select all checkbox inputs and wrap them with a span that has the class of pinky using the wrap method" time="0.007">
+		</testcase>
+	</testsuite>
+</testsuites>
+
